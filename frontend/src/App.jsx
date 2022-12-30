@@ -15,6 +15,7 @@ function App() {
       })
       .catch(error=>console.log('error',error))
   }, [])
+  //adding the mapping of serach->filter(added by user in bar) with the component having the same filter as user entered and show that compnnet and pass data in it
   return (
     <div className="App">
       <div className="coin-search">
