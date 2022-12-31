@@ -13,7 +13,6 @@ const Coin = ({name,image,symbol,price,volume}) => {
                  <div className="coin-data">
                   <p className="coin-price">${price}</p>
                     <p className="coin-volume">${volume}</p>
-                 
                  </div>
             </div>
         </div>
