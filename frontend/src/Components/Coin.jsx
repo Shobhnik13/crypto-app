@@ -1,6 +1,9 @@
 import React from 'react'
 import '../Coin.css'
-const Coin = ({name,image,symbol,price,volume,priceChange,marketCap}) => {
+const Coin = ({name,image,symbol,price,volume,priceChange,marketCap,loading}) => {
+  if(loading){
+    return <h2>Loading data please wait....</h2>
+  }
   return (
     <div>
         <div className="coin-container">

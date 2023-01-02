@@ -42,3 +42,6 @@
 .coin-input::placeholder{
     color: white;
 }
+.nav{
+    height: 500px;
+}
